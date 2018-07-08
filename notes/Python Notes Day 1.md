@@ -1,6 +1,7 @@
 # Python
 
 **Strings:**
+Refer: https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
 
 Strings are objects with state (content) and behaviors (which are acted upon by the methods; methods are functions that are attached to the objects)
 
