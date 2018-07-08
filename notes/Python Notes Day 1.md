@@ -9,9 +9,9 @@ Strings are immutable; you cannot modify a string.
 - `"pass" + "word"` gives a `"password"` which is a new string
 - "`Ha" * 4` gives `'HaHaHaHa'` since it is 'Ha' + 'Ha' + 'Ha' + 'Ha'
 
-# is for single line comments 
+`#` is for single line comments 
 
-""" ... """ is for multi-line comments
+`""" ... """` is for multi-line comments
 
     >>> "double".find('s')
      -1 
