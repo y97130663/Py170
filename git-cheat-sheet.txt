@@ -1,0 +1,8 @@
+git config --global user.email 'you@example.com'
+git config --global user.username 'Your Name'
+Generate new ssh key and add it to the github
+ssh-keygen -t rsa -b 4096 -C your_email
+eval 'SSH_AUTH_SOCK=/var/folders/m5/_dffy9md3gq9v42cpx7sdfc40000gp/T//ssh-lPu0CqEQeY7d/agent.1369; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1370; export SSH_AGENT_PID;
+echo Agent pid 1370;'
+eval '$(ssh-agent -s)'
