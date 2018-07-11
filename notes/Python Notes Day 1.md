@@ -410,3 +410,46 @@ There are a few other ways to create dictionaries that we might see, those being
     >>> colors = dict([('kevin', 'blue'), ('bob', 'green'), ('kayla', 'red')])
     >>> colors
     {'kevin': 'blue', 'bob': 'green', 'kayla': 'red'}
+
+**Conditionals and Comparisons:**
+
+There are some standard comparison operators that we’ll use that match pretty closely to those used in mathematical equations. Let’s take a look at them:
+
+    >>> 1 < 2
+    True
+    >>> 0 > 2
+    False
+    >>> 2 == 1
+    False
+    >>> 2 != 1
+    True
+    >>> 3.0 >= 3.0
+    True
+    >>> 3.1 <= 3.0
+    False
+
+If we try to make comparisons of types that don’t match up, we will run into errors:
+
+    >>> 3.1 <= "this"
+    Traceback (most recent call last):
+      File "", line 1, in 
+    TypeError: '<=' not supported between instances of 'float' and 'str'
+    >>> 3 <= 3.1
+    True
+    >>> 1.1 == "1.1"
+    False
+    >>> 1.1 == float("1.1")
+    True
+
+We can compare more than just numbers. Here’s what it looks like when we compare strings:
+
+    >>> "this" == "this"
+    True
+    >>> "this" == "This"
+    False
+    >>> "b" > "a"
+    True
+    >>> "abc" < "b"
+    True
+
+Notice that the string `'b'` is considered greater than the strings `'a'` and `'abc'`. The characters are compared one at a time alphabetically to determine which is greater. This concept is used to sort strings alphabetically.
