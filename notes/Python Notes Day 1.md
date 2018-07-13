@@ -413,6 +413,14 @@ There are a few other ways to create dictionaries that we might see, those being
 
 **Conditionals and Comparisons:**
 
+- Ref: [https://docs.python.org/3/library/stdtypes.html#comparisons](https://docs.python.org/3/library/stdtypes.html#comparisons)
+
+  TBD
+
+- Ref: [https://docs.python.org/3/tutorial/controlflow.html#if-statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
+
+  TBD
+
 There are some standard comparison operators that we’ll use that match pretty closely to those used in mathematical equations. Let’s take a look at them:
 
     >>> 1 < 2
@@ -453,3 +461,30 @@ We can compare more than just numbers. Here’s what it looks like when we compa
     True
 
 Notice that the string `'b'` is considered greater than the strings `'a'` and `'abc'`. The characters are compared one at a time alphabetically to determine which is greater. This concept is used to sort strings alphabetically.
+
+## T**he `in` Check**
+
+We often get lists of information that we need to ensure contains (or doesn’t contain) a specific item. To make this check in Python, we’ll use the `in` and `not in` operations.
+
+    >>> 2 in [1, 2, 3]
+    True
+    >>> 4 in [1, 2, 3]
+    False
+    >>> 2 not in [1, 2, 3]
+    False
+    >>> 4 not in [1, 2, 3]
+    True
+
+`if/else` and `pass` statements:
+
+    # pass can be used for the else block to do nothing as passon
+    >>> if 1 == 1:
+    ...     print("Alpha")
+    ... else:
+    ...     pass
+    ... 
+    Alpha
+    >>> if 1 != 1:
+    ...     print("Beta")
+    ... else:
+    ...     pass
